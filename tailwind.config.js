@@ -37,8 +37,7 @@ export default {
             {},
         },
         ".h6": {
-          "@apply font-[500] text-[.885rem] leading-normal md:text-[1rem] lg:text-[1.2rem]":
-            {},
+          "@apply font-[500] text-[.885rem] leading-normal md:text-[1rem]": {},
         },
         ".body-1": {
           "@apply text-[0.895rem] leading-[1.4rem] md:text-[.975rem] md:leading-[1.5rem] xl:text-[1.1rem] xl:leading-[1.65]":
