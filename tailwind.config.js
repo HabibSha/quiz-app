@@ -1,4 +1,5 @@
 import plugin from "tailwindcss/plugin";
+import forms from "@tailwindcss/forms";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -15,6 +16,7 @@ export default {
     },
   },
   plugins: [
+    forms,
     plugin(function ({ addBase, addComponents, addUtilities }) {
       addBase({});
       addComponents({

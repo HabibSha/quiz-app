@@ -10,7 +10,7 @@ html {
 
 @layer components {
   .input-style {
-    @apply w-full px-4 py-3 border-none outline-none rounded-md shadow-sm hover:ring-2 focus:ring-2 font-semibold mb-6;
+    @apply w-full px-4 py-3 border-none outline-none rounded-md shadow-sm hover:ring-2 focus:ring-2 font-semibold;
   }
   .button-style {
     @apply w-full px-4 py-3 text-white font-semibold border-none outline-none rounded-md shadow-sm bg-blue-600 hover:bg-blue-700;
