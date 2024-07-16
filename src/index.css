@@ -15,4 +15,7 @@ html {
   .button-style {
     @apply w-full px-4 py-3 text-white font-semibold border-none outline-none rounded-md shadow-sm bg-blue-600 hover:bg-blue-700;
   }
+  .button-style2 {
+    @apply px-4 py-2 text-white font-semibold border-none outline-none rounded-md shadow-sm bg-green-400 hover:bg-green-500;
+  }
 }

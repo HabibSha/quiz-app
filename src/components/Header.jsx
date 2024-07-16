@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import styles from "../styles";
 
 const Header = () => {
@@ -6,7 +6,9 @@ const Header = () => {
     <>
       <section className="bg-white shadow-lg">
         <article className={`${styles.flexBetween} ${styles.container} py-4`}>
-          <p className="text-[20px] sm:text-[22px] font-[500]">LaQuiz</p>
+          <Link to="/" className="text-[20px] sm:text-[22px] font-[500]">
+            LaQuiz
+          </Link>
           <nav>
             <ul
               className={`${styles.flexCenter} gap-1 text-[15px] sm:text-[17px] text-blue-800`}

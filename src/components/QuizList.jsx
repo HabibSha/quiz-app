@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import jsDom from "../assets/jsDom.jpg";
 import styles from "../styles";
 
@@ -5,7 +7,10 @@ const QuizList = () => {
   return (
     <>
       <section>
-        <article className="p-3 shadow-sm rounded-md bg-white flex flex-col">
+        <Link
+          to="/quiz"
+          className="p-3 shadow-sm hover:shadow-md rounded-md bg-white flex flex-col"
+        >
           <img src={jsDom} alt="JavaScript DOM" />
           <div className="mt-2 font-semibold flex flex-col">
             <h6 className="h6">
@@ -16,7 +21,7 @@ const QuizList = () => {
               <p>Total points: 20</p>
             </div>
           </div>
-        </article>
+        </Link>
       </section>
     </>
   );
