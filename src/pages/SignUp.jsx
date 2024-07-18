@@ -18,8 +18,8 @@ const SignUp = () => {
     <section>
       <article className={`${styles.container} ${styles.paddingY}`}>
         <h2 className="h2 font-bold mb-10">SignUp to Play Quiz</h2>
-        <div className="grid grid-cols-2 md:gap-12">
-          <div className="">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-12">
+          <div className="hidden md:block">
             <img src={signup} alt="SignUp Hero Image" className="w-full" />
           </div>
           <div className="flex items-center justify-center">
