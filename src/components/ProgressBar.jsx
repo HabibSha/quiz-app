@@ -1,6 +1,6 @@
 const ProgressBar = () => {
   return (
-    <article className="w-full bg-white sm:px-3 sm:px-6 py-2 rounded-md flex items-center justify-center gap-3 sm:gap-6">
+    <article className="w-full bg-white px-3 sm:px-6 py-2 rounded-md flex items-center justify-center gap-3 sm:gap-6">
       <div>
         <button className="flex-shrink-0">Prev</button>
       </div>

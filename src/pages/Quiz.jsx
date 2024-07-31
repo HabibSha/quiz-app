@@ -5,8 +5,8 @@ const Quiz = () => {
   return (
     <section>
       <article className={`${styles.container} ${styles.paddingY}`}>
-        <h2>Title</h2>
-        <p>instruction</p>
+        <h1>Question</h1>
+        <p>Question can have multiple answers</p>
         <div>question select area</div>
         <div>
           <ProgressBar />
