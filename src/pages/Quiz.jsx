@@ -1,3 +1,4 @@
+import Answers from "../components/Answers";
 import ProgressBar from "../components/ProgressBar";
 import styles from "../styles";
 
@@ -5,10 +6,12 @@ const Quiz = () => {
   return (
     <section>
       <article className={`${styles.container} ${styles.paddingY}`}>
-        <h1>Question</h1>
-        <p>Question can have multiple answers</p>
-        <div>question select area</div>
-        <div>
+        <h1 className="h3 font-medium">Question</h1>
+        <h6 className="h6 text-slate-500 py-1">
+          Question can have multiple answers
+        </h6>
+        <div className="border-t-[1px] py-6">
+          <Answers />
           <ProgressBar />
         </div>
       </article>
