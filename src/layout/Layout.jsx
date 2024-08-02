@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <main className="relative bg-slate-100">
+      <main className="relative h-screen bg-slate-100">
         <Outlet />
       </main>
     </>
