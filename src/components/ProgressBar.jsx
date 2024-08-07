@@ -7,7 +7,7 @@ const ProgressBar = () => {
       <div className="w-[82%] bg-gray-200 rounded-full h-2">
         <div
           className="bg-green-400 h-2 rounded-full w-[40%]"
-          // style={{ width: `${progress}%` }}
+          style={{ width: `${progress}%` }}
         ></div>
       </div>
       <div className="flex-shrink-0">
